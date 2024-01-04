@@ -3,7 +3,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 const Featured = () => {
     return (
-        <div className='w-full h-screen '>
+        <div className='w-full  '>
             <div className='w-full h-1'>
                 <h1 className='flex justify-center py-10 my-5 text-3xl font-bold text-red-500 '>Featured</h1>
             </div>
