@@ -6,7 +6,7 @@ const Featured = () => {
             <div className='w-full h-1'>
                 <h1 className='flex justify-center py-7 text-2xl font-bold text-red-500 '>Featured</h1>
             </div>
-            <div className='py-[7rem] max-w-[1240px] mx-auto grid grid-cols-2 md:grid-cols-5 gap-8 '>
+            <div className='pt-[7rem] max-w-[1240px] mx-auto grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8 px-8 md:px-4'>
                 <div className='flex flex-col px-3 md:px-1 border border-r-2 rounded-lg border-red-500 shadow-xl hover:scale-105 duration-200'>
                     <h2 className='mx-auto font-bold py-2'>Thailand</h2>
                     <img className='rounded-lg p-2' src="https://images.unsplash.com/photo-1504214208698-ea1916a2195a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
@@ -57,6 +57,9 @@ const Featured = () => {
                     <img className='rounded-lg p-2' src="https://plus.unsplash.com/premium_photo-1673264933048-3bd3f5b86f9d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
                     <p className='p-2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus repellendus ducimus ut reprehenderit consequatur adipisci aut id omnis eos dolor.</p>
                 </div>
+            </div>
+            <div className='w-full flex justify-center py-10 '>
+                <button className='border border-r-4 rounded-full px-5 py-2 bg-green-400 hover:scale-110 duration-100'>Load More</button>
             </div>
         </div>
     )
