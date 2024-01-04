@@ -10,12 +10,12 @@ export const Navbar = () => {
 
     return (
         <div className='absolute flex w-full justify-between h-20 items-center mx-auto px-6 pt-2'>
-            <h1 className='text-3xl font-bold mt-1 ml-5 md:ml-5 drop-shadow-xl z-10'>Travel<span className='text-red-500'>er</span></h1>
+            <h1 className='text-3xl font-bold mt-1 ml-5 md:ml-5 drop-shadow-xl z-10'>Travel<span className='text-red-700'>er</span></h1>
             <ul className='hidden sm:flex pr-2 z-10'>
-                <li className='p-4 m-1 text-lg cursor-pointer uppercase'>Home</li>
-                <li className='p-4 m-1 text-lg cursor-pointer uppercase'>Featured</li>
-                <li className='p-4 m-1 text-lg cursor-pointer uppercase'>Blog</li>
-                <li className='p-4 m-1 text-lg cursor-pointer uppercase'>Contact</li>
+                <li className='p-4 m-1 text-lg cursor-pointer uppercase text-white'>Home</li>
+                <li className='p-4 m-1 text-lg cursor-pointer uppercase text-white'>Featured</li>
+                <li className='p-4 m-1 text-lg cursor-pointer uppercase text-white'>Blog</li>
+                <li className='p-4 m-1 text-lg cursor-pointer uppercase text-white'>Contact</li>
             </ul>
 
             <div onClick={handleNav} className='block sm:hidden cursor-pointer pr-6 z-10'> 
