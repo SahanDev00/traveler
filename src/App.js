@@ -2,6 +2,7 @@ import Blogs from './components/Blogs';
 import Featured from './components/Featured';
 import Hero from './components/Hero';
 import {Navbar} from './components/Navbar';
+import Newsletter from './components/Newsletter';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Hero/>
       <Featured/>
       <Blogs/>
+      <Newsletter/>
     </div>
   );
 }
