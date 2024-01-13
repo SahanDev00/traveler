@@ -11,7 +11,7 @@ const Footer = () => {
     return (
         <div className=' w-full h-[650px] md:h-[250px] bg-green-950'>
             <div className='grid md:grid-cols-4 ml-9 pt-3'>
-                <h1 className='text-3xl pt-6 font-bold pl-1 md:pl-7 md:ml-5 '>Travel<span className='text-red-700'>er</span></h1>
+                <h1 className='text-3xl pt-6 font-bold pl-1 md:pl-7 md:ml-5 '>Travell<span className='text-red-700'>er</span></h1>
                 <div className='pt-4 pb-2 ml-2'>
                     <h2 className='font-bold text-gray-300 text-lg'>Company</h2>
                     <ul>

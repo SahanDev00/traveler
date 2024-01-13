@@ -10,7 +10,7 @@ export const Navbar = () => {
 
     return (
         <div className='absolute flex w-full justify-between h-20 items-center mx-auto px-6 pt-2'>
-            <h1 className='text-3xl font-bold mt-1 ml-5 md:ml-5 drop-shadow-xl z-10'>Travel<span className='text-red-700'>er</span></h1>
+            <h1 className='text-3xl font-bold mt-1 ml-5 md:ml-5 drop-shadow-xl z-10'>Travell<span className='text-red-700'>er</span></h1>
             <ul className='hidden sm:flex pr-2 z-10'>
                 <li className='p-4 m-1 text-lg cursor-pointer uppercase text-white'>Home</li>
                 <li className='p-4 m-1 text-lg cursor-pointer uppercase text-white'>Featured</li>
@@ -23,7 +23,7 @@ export const Navbar = () => {
             </div>
 
         <div className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-green-200 ease-in-out duration-500  z-10' : 'fixed left-[-100%]'}>
-        <h1 className='text-3xl font-bold mt-5 ml-5 md:ml-3 drop-shadow-xl'>Travel<span className='text-red-500'>er</span></h1>
+        <h1 className='text-3xl font-bold mt-5 ml-5 md:ml-3 drop-shadow-xl'>Travell<span className='text-red-500'>er</span></h1>
             <ul className='sm:flex pr-2 '>
                 <li className='p-3 ml-3 mt-2 text-lg  cursor-pointer uppercase'>Home</li>
                 <li className='p-3 ml-3 text-lg cursor-pointer uppercase'>Featured</li>
