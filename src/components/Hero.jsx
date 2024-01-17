@@ -10,7 +10,7 @@ const Hero = () => {
                 <div className='absolute max-w-[1100px] m-auto p-4 md:left-[10%]'>
                     <h1 className='text-4xl sm:text-5xl font-bold text-red-700 drop-shadow-lg'>Travel Guide</h1>
                     <p className='text-2xl text-white drop-shadow-lg sm:text-3xl py-4'>Know about your next destination.</p>
-                    <input className='h-10 w-80 border-4 border-red-500 p-4' type="text" placeholder='Where would you like to go?' />
+                    <input className='h-10 w-[70%] border-4 border-red-500 p-4' type="text" placeholder='Where would you like to go?' />
                     <button className='p-3 m-1 bg-white text-red-600 border border-red-500 rounded-full'><FaSearch /></button>
                 </div>
             </div>
